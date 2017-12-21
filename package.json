@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www"
+    "start": "node bears-19.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/chingu-voyage3/bears-19#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "cookie-parser": "^1.4.3",
+    "bcrypt": "^1.0.3",
     "debug": "^3.1.0",
-    "express": "^4.16.2",
-    "morgan": "^1.9.0",
-    "serve-favicon": "^2.4.5"
+    "hapi": "^16.1.1",
+    "hapi-cors-headers": "^1.0.3",
+    "mongodb": "^2.2.26",
+    "multiparty": "^4.1.3"
   }
 }
